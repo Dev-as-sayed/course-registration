@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.postimg.cc/jnLLXpP1/Rectangle-2-2.png",
+    "title": "Introduction to c programming ",
+    "description": "C is a powerful, low-level programming language used for system development and embedded programming.",
+    "price": 15000,
+    "credit": 5
+  },
+  {
+    "id": 2,
+    "image": "https://i.postimg.cc/QFLHQnt6/Rectangle-2-3.png",
+    "title": "Introduction to Algorithms",
+    "description": "Algorithms are step-by-step instructions for solving problems efficiently, fundamental in computer science.",
+    "price": 25000,
+    "credit": 3
+  },
+  {
+    "id": 3,
+    "image": "https://i.postimg.cc/py69TdtM/Rectangle-2-4.png",
+    "title": "introduction to c++ for dsa",
+    "description": "C++ enhances data structures and algorithms implementation, vital for competitive programming and software development.",
+    "price": 10000,
+    "credit": 3
+  },
+  {
+    "id": 4,
+    "image": "https://i.postimg.cc/p9CrtWB7/Rectangle-3.png",
+    "title": "basic data structures",
+    "description": "Data structures like arrays, linked lists, and trees are building blocks for efficient data manipulation.",
+    "price": 35000,
+    "credit": 5
+  },
+  {
+    "id": 5,
+    "image": "https://i.postimg.cc/sQnM5jQS/Rectangle-2.png",
+    "title": "introduction to oop phyton",
+    "description": "Python's Object-Oriented Programming (OOP) simplifies code organization and reusability.",
+    "price": 19000,
+    "credit": 2
+  },
+  {
+    "id": 6,
+    "image": "https://i.postimg.cc/mcBkqz7C/Rectangle-2-5.png",
+    "title": "software engineering",
+    "description": "Software engineering ensures systematic, quality software development, from planning to maintenance.",
+    "price": 23000,
+    "credit": 4
+  },
+  {
+    "id": 7,
+    "image": "https://i.postimg.cc/3kgWnC03/Rectangle-3-1.png",
+    "title": "aws, cloud computing",
+    "description": "Amazon Web Services (AWS) is a leading cloud platform, revolutionizing computing, storage, and services.",
+    "price": 24000,
+    "credit": 2
+  },
+  {
+    "id": 8,
+    "image": "https://i.postimg.cc/jC5wt7mh/Rectangle-2-1.png",
+    "title": "database (MySQL)",
+    "description": "MySQL is a popular relational database management system, crucial for data storage and retrieval.",
+    "price": 32000,
+    "credit": 3
+  },
+  {
+    "id": 9,
+    "image": "https://i.postimg.cc/KR31gyZk/Rectangle-2-6.png",
+    "title": "problem-solving part",
+    "description": "Problem-solving skills are core in programming, involving logical thinking and algorithmic solutions for real-world challenges.",
+    "price": 19000,
+    "credit": 4
+  }
+]
