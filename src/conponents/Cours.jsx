@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 // import Courses from "./Courses";
 
 
-const Cours = ( {cours}) => {
+const Cours = ( {cours, handelListingButton}) => {
     const {image, title, description, price, credit} = cours
     console.log(cours);
     return (
@@ -17,12 +17,13 @@ const Cours = ( {cours}) => {
                     <p><span></span> <span>Credit: {credit}hr</span></p>
                 </div>
             </div>
-            <button className='m-1 w-full py-2 bg-blue-500 rounded-xl'>Select</button>
+            <button className='m-1 w-full py-2 bg-blue-500 rounded-xl' onClick={ () => handelListingButton(cours)}>Select</button>
         </div>
     );
 };
 
 Cours.propTypes = {
-    cours: PropTypes.object.isRequired
+    cours: PropTypes.object.isRequired,
+    handelListingButton: PropTypes.func.isRequired
 }
 export default Cours;
