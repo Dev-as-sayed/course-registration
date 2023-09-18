@@ -13,7 +13,6 @@ const Courses = ({handelListingButton}) => {
     }, [])
     return (
         <div className="md:w-3/4 p-3 md:grid grid-cols-3 gap-2">
-                {/* <h2>Courses {courses.length}</h2> */}
                 {
                     courses.map(courses => <Cours 
                         key={courses.id}
@@ -25,7 +24,7 @@ const Courses = ({handelListingButton}) => {
     );
 };
 Courses.propTypes = {
-    handelListingButton: PropTypes.func.isRequired
+    handelListingButton: PropTypes.func
 }
 
 export default Courses;

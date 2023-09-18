@@ -1,11 +1,7 @@
 import PropTypes from 'prop-types';
-// import { FiDollarSign } from 'react-icons/fa';
-// import Courses from "./Courses";
 
-
-const Cours = ( {cours, handelListingButton}) => {
+const Cours = ({cours, handelListingButton}) => {
     const {image, title, description, price, credit} = cours
-    console.log(cours);
     return (
         <div className='w-72 h-[22.5rem] p-2 bg-slate-200 rounded-xl'>
             <img className='w-full' src={image} alt="" />
@@ -21,7 +17,6 @@ const Cours = ( {cours, handelListingButton}) => {
         </div>
     );
 };
-
 Cours.propTypes = {
     cours: PropTypes.object.isRequired,
     handelListingButton: PropTypes.func.isRequired
